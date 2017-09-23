@@ -26,7 +26,7 @@ public class BDSimulado {
 		  Contatos c9 = new Contatos("Priscila", "12/12/2012",true , "João Pessoa", "PB" );
 		  Contatos c10 = new Contatos("Giovanna", "20/01/1997",false , "Brasília", "DF" );
 		  
-		  //Adicionar contatos
+		  //Adicionar contatos jsdab
 		  
 		  this.contatos.add(c1);
 		  this.contatos.add(c2);
