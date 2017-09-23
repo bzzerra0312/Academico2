@@ -67,27 +67,35 @@ public class BDSimulado {
 	    public ArrayList<Viagem> getViagens() {
 	        return viagens;
 	    }
-	    public ArrayList<String> listaUFsViagem(String passageiro){
-	    	String resultado="";
-			return null;
-	    }
+	    
 	    
 	    public int getMaiorViagem(){
 	    	String resultado="";
 			return 0;
 	    }
-	    
-	    public int getQtdeViagens(String passageiro){
-	    	String resultado="";
+	    public String getQtdeViagens(String passageiro){
+	    	String resultado = "";
 	    	for (int i = 0; i < this.viagens.size(); i++) {
-	    		if (this.viagens.get(i).getPassa().equals(passageiro)){
-	    			
+	    		if (this.passageiros.get(i).equals(passageiro)) {
+	    		
+					
+				} {
+	    		   
 					
 				}
 				
 			}
-			return 0;
+			return resultado;
+	    	
 	    }
+	  
+	    	
+					
+				
+				
+			
+			
+	    
 	    
 	    
 	    public String getInfoPassageiro(String nome){
@@ -101,12 +109,14 @@ public class BDSimulado {
 							"Cidade: " + this.passageiros.get(i).getCidade() +
 							"\n" +
 							"UF: " +this.passageiros.get(i).getUF();
+							
 					
 				}
 				return resultado;
 			}
 			return resultado;
-	    	
+			
+			
 	    }
 			
 	    }
